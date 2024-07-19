@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: rgb(192,228,201);
+    background: linear-gradient(0deg, rgba(192,228,201,1) 0%, rgba(224,245,212,1) 100%);
+}
+
+header{
+    width: 80%;
+    padding: 0 20px 0 0;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #7BC6C6;
+    border: 1px solid #4A7878;
+    border-radius: 20px;
+}
+
+nav{
+    width: 100%;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo{
+    margin-right: auto;
+}
+
+.login{
+    margin-left: auto;
+    background-color: #4A7878;
+    border-radius: 20px;
+}
+
+.login a{
+    color: #fff;
+}
+
+li a{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 30px;
+    color: #000;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.links:hover{
+    background-color: #4A7878;
+    border-radius: 20px;
+}
+
+.links:hover a{
+   color: #fff;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.intro{
+    width: 500px;
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.intro h1{
+    font-family: "Handlee", cursive;
+    font-size: 7.0rem;
+    font-weight: 500;
+    color: #305454;
+    margin-bottom: 10px;
+}
+
+.intro p{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #305454;
+    margin-bottom: 10px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.start{
+    padding: 10px 15px;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #4A7878;
+    border-radius: 10px;
+}
+
+.watch{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 15px;
+}
+
+.watch:hover{
+    background-color: #4A7878;
+    border-radius: 10px;
+}
+
+.watch:hover span{
+    color: #fff;
+}
+
+.watch span{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000000;
+}
+
+.pyy{
+    width: 30px;
+}
+
+.photo{
+    width: 400px;
+}
+
+
+
